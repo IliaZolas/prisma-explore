@@ -27,6 +27,7 @@ async function main() {
   console.dir(allUsers, { depth: null })
 }
 
+
 main()
   .then(async () => {
     await prisma.$disconnect()
